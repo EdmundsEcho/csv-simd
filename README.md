@@ -6,7 +6,7 @@ Adapted Lemir simdjson algorithm applied to build csv memory index.  Uses byte "
 3. `record, field idx, index -> field value`
 
 # Interested in leading a small (manageable) open source project?
-Post a comment on the issue.
+Post a comment and ask your questions here: https://github.com/EdmundsEcho/csv-simd/issues/1
 
 # Meta todos
 
