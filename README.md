@@ -1,9 +1,12 @@
 # csv-simd
 Adapted Lemir simdjson algorithm applied to build csv memory index.  Uses byte "nibles" to increase processing capacity to identify structure in a csv.
 
-A. `csv -> memory index`
-B. `record number, index -> record`
-C. `record, field idx, index -> field value`
+1. `csv -> memory index`
+2. `record number, index -> record`
+3. `record, field idx, index -> field value`
+
+# Interested in leading a small (manageable) open source project?
+Post a comment on the issue.
 
 # Meta todos
 
