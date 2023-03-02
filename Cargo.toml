@@ -1,0 +1,29 @@
+[package]
+name = "csv-simd"
+version = "0.1.0"
+authors = ["Edmund Cape <edmund.cape@lucivia.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "csv_simd"
+path = "src/lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/bin/main.rs"
+
+[dependencies]
+memmap = "0.7.0"
+thiserror = "1.0"
+bytemuck = {version = "1.5.0", features = ["extern_crate_alloc", "derive"]}
+# mimalloc = { version = "*", default-features = false }
+# jemallocator = "0.3.0"
+
+# data-encoding = "2.3"
+# bit-vec = "0.6"
+# packed_simd = { version = "0.3.4", package = "packed_simd_2" }
+
+[build]
+rustflags = "-C target-cpu=native"
