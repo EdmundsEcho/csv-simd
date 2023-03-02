@@ -11,6 +11,7 @@ C. `record, field idx, index -> field value`
 2. describe the project
 3. how to participate
 4. use the BurntSushi csv parser as a benchmark
+5. discuss and track which of io or cpu processing capacity is the bottleneck
 
 # Decisions
 
