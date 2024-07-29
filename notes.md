@@ -975,7 +975,8 @@ struct {
   a: char;
   b: i32; // word
   c: i16; // short
-}```
+}
+```
 
  on a 32-bit machine:
 
