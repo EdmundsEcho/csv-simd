@@ -979,7 +979,8 @@ struct {
 ```
 
  on a 32-bit machine:
-
+ 
+ ```
  -----
  | a | 0x0000
  |   |
@@ -994,8 +995,11 @@ struct {
  | c | 0x0008
  | c |
  -----
+```
+
  … copied over the network
-  -----
+ ```
+ -----
  | a | 0x0000
  -----
  | b | 0x0001 🚫
@@ -1006,6 +1010,7 @@ struct {
  | c | 0x0005 🚫
  | c |
  -----
+```
 
  Because pointers only point to every 32-bits in memory, if the location of the information is "off" the mark, there is extra work to do to "focus" the result from the pointer.
 
